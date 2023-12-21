@@ -16,6 +16,9 @@ body {
   padding: 0.25em;
   /*  */
   display: flex;
+
+  align-items: flex-start;
+  height: 50vh;
 }
 
 .flex-item {
@@ -24,4 +27,13 @@ body {
   padding: 0.5em;
   color: #424656;
   width: 200px;
+}
+
+.flex-item-1 {
+  background: plum;
+}
+
+.flex-item-2 {
+}
+.flex-item-3 {
 }
