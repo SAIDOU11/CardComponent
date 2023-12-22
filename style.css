@@ -8,7 +8,14 @@ body {
   font-family: 'Source Sans 3', sans-serif;
   background: #111d4a;
   color: #8c93a6;
-  font-size: 1rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
 }
 
 /* =====
@@ -18,6 +25,7 @@ h1,
 .read-more {
   font-family: 'Blinker', sans-serif;
 }
+
 h1 {
   color: #05cbe9;
   font-family: 'Blinker', sans-serif;
@@ -32,13 +40,18 @@ span {
   font-size: 1.75rem;
 }
 
+.proven-tips {
+  line-height: 1.6;
+}
+
 .btn {
   display: inline-block;
   font-size: 1.25rem;
   background: #05cbe9;
-  padding: 0.5em 1.25em;
+  padding: 0.35em 1.25em;
   color: #111d4a;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 /* =====
@@ -52,10 +65,6 @@ Layout
 
 .image-bg {
   width: 100%;
-  height: 300px;
-  background-image: url(./image/tech.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .info {
